@@ -1,13 +1,14 @@
 {
     "name": "Node-BLUE",
-    "version": "0.1.4",
+    "version": "0.2.0",
     "slug": "node-blue",
     "description": "Node.js automation engine for Home Assistant",
     "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
     "startup": "before",
     "boot": "auto",
     "homeassistant_api": true,
-    "state": "experimental",
+    "map": ["share:rw"],
+    "stage": "experimental",
     "options": {},
     "schema": {}
 }
